@@ -1,6 +1,7 @@
 # nv_torch_gym
 
-image :  nvidia torch + gym 
+Dockerfile : nvidia torch + gym 
+
 
 ```bash
 # usage:
@@ -8,4 +9,4 @@ docker run --name gym --rm -it -v `pwd`:/opt/work/  --gpus all --ipc=host --ulim
 ```
 
 
-
+More usage please check https://github.com/mebusy/gym 
