@@ -4,8 +4,9 @@ Dockerfile : nvidia torch + gym
 
 
 ```bash
-# usage:
-docker run --name gym --rm -it -v `pwd`:/opt/work/  --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864  mebusy/nv_torch_gym  python <your script> 
+# NOTE: use nvidia-docker instead
+# usage: 
+nvidia-docker run --name gym --rm -it -v `pwd`:/opt/work/  --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864  mebusy/nv_torch_gym  python <your script> 
 ```
 
 
