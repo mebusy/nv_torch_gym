@@ -14,7 +14,7 @@ RUN apt-get update -y && \
 
 RUN pip3 install pygame  pyvirtualdisplay pyglet
 
-RUN pip3 install gym==0.22.0  gym[atari,accept-rom-license]==0.22.0
+RUN pip3 install gym==0.26.2  gym[atari,accept-rom-license]==0.26.2
 
 # disable pygame sound
 ENV SDL_VIDEODRIVER dummy

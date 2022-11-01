@@ -2,6 +2,7 @@
 
 Dockerfile : nvidia torch + gym 
 
+NOTE: gym has upgraded to 0.26.2,   to use the gym@0.22.0 ,  use `mebusy/nv_torch_gym:0.22` instead.
 
 ```bash
 # NOTE: you can also use nvidia-docker to avoid `can not Detect NVIDIA Driver` warning.
