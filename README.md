@@ -1,8 +1,9 @@
 # nv_torch_gym
 
-Dockerfile : nvidia torch + gym 
+Dockerfile : nvcr.io/nvidia/pytorch:24.03-py3  + gym  0.26.2
 
-NOTE: gym has upgraded to 0.26.2,   to use the gym@0.22.0 ,  use `mebusy/nv_torch_gym:0.22` instead.
+
+to use the gym@0.22.0 ,  use `mebusy/nv_torch_gym:0.22` instead.
 
 ```bash
 # NOTE: you can also use nvidia-docker to avoid `can not Detect NVIDIA Driver` warning.
