@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:22.06-py3
+FROM nvcr.io/nvidia/pytorch:24.03-py3
 
 MAINTAINER golden_slime@hotmail.com
 
